@@ -32,11 +32,11 @@ sudo python3.5 -m pip install git+https://github.com/abelectronicsuk/ABElectroni
 
 ## Running the tests
 
-There are three main programmes.
+There are three main programs.
 
 ### 1. POSITION.py
 
-To use this programme, you can select the length of time you want the test to run for and the name which you would like the saved data to be called here:
+To use this program, you can select the length of time you want the test to run for and the name which you would like the saved data to be called here:
 
 ```
 #************************************************
@@ -46,14 +46,14 @@ NAME ='name'
 
 #************************************************
 ```
-One run, the programme will save 6 .txt files containing the data. These contain:
-* two files with the guassian weigheted moving averaged voltages measured across the two output channels of the PSD during the time frame (namegwma1.txt and namegwma2.txt) 
+Once it has completed a run, the program will save 6 .txt files containing the data. These contain:
+* two files with the guassian weighted moving averaged voltages measured across the two output channels of the PSD during the time frame (namegwma1.txt and namegwma2.txt) 
 * one file with the calcualted postion of the object on the PSD (namepostion.txt)
 * one file with the time data (nametime.txt)
 * one file with detailing the as the averages and root mean square errors of the data (nameaveserrors.txt)
 
 ### 2. realtimeposition.py
-This programme plots the measured and position in real time, with a time step of 0.01s.
+This program plots the measured and position in real time, with a time step of 0.01s.
 There is potential to change this time step although not advised, lengthening it removed details, shortening it increasing processing time and slows down the display.
 To change dt, edit:
 
@@ -65,7 +65,6 @@ class Scope(object):
 ### 3. realtime.py
 The same code as realtimeposition.py but plots one of the singal output voltaged measured from the PSD.
 To choose the channel, write 1 or 2 in the read_adc brackets.
-
 ```
 def emitter2():
    while True:
