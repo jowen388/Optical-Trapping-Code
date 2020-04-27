@@ -4,7 +4,7 @@ This is the code used to control a Raspberry Pi which reads the output from a po
 
 ### Prerequisites
 
-A ADC-DAC Pi Zero sub board is requried, and the software must be installed. Instructions from https://github.com/abelectronicsuk/ABElectronics_Python_Libraries/blob/master/ADCDACPi/README.md
+If not already, the ADC-DAC Pi Zero software must be installed. Instructions from https://github.com/abelectronicsuk/ABElectronics_Python_Libraries/blob/master/ADCDACPi/README.md
 To download to your Raspberry Pi type in terminal:
 ```
 git clone https://github.com/abelectronicsuk/ABElectronics_Python_Libraries.git
