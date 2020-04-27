@@ -50,13 +50,9 @@ class Scope(object):
         return self.line,
 
 
-def emitter():
 
-    while True:
-            yield adcdac.read_adc_voltage(1, 0),  adcdac.read_adc_voltage(2, 0) 
 
 def emitter2():
-
    while True:
             yield adcdac.read_adc_voltage(1, 0)
 
