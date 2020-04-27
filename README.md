@@ -74,7 +74,7 @@ def emitter2():
 
 ## ADC Testing codes
 
-Series of codes used to testhte maximum samples per second for a few ADCs. Most code measure the time taken to carry out a known umber of readings. Most of the codes were copied or developed from their respective online directories lsited below.
+Series of codes used to test the maximum samples per second for a few ADCs. Most codes measured the time taken to carry out a known number of readings, which was then divided to find the number of reading taken per second. These codes were either directly copied or developed from their respective online directories lsited below.
 https://github.com/abelectronicsuk/ABElectronics_Python_Libraries
 https://github.com/adafruit/Adafruit_Python_ADS1x15
 https://github.com/ul-gh/PiPyADC
@@ -83,5 +83,5 @@ https://github.com/adafruit/Adafruit_Python_MCP3008
 
 ## Authors
 
-Code written by Jasmine Owen and Rebecca Rogers
+Code written by Jasmine Owen and Rebecca Rogers.
 
